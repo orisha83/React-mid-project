@@ -1,0 +1,118 @@
+.redStyle
+{
+  background-color: red;
+  width : 250px;
+}
+
+.yellowStyle
+{
+  background-color:  yellow;
+  width : 200px
+}
+
+.orangeStyle
+{
+  background-color:  orange;
+  width : 150px
+}
+
+.redUserStyle  
+{
+  width: 370px;
+  text-align: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  
+}
+
+.backgroundStyleOrange
+{
+  background-color: lightsalmon;
+}
+
+.backgroundStyleWhite
+{
+  background-color: white;
+}
+
+.greenUserStyle  
+{
+  width: 370px;
+  text-align: left;
+  border-style: solid;
+  border-width: 2px;
+  border-color: green;
+}
+
+.visibleStyle
+{
+  display : block;
+  border-style: solid;
+  border-radius: 15px;
+  border-width: 2px;
+  border-color: black;
+  width: 270px;
+  text-indent: 25px hanging;
+
+}
+
+.hideStyle
+{
+  display : none;
+}
+
+.displayTododAndPost
+{
+  display : block;
+}
+
+.hideTodosAndPosts
+{
+  display : none;
+}
+
+.todosStyle
+{
+  border-style: solid;
+  border-width: 2px;
+  border-color: purple;
+  width: 380px;
+  text-align: left;
+}
+
+.completedVisible
+{
+  display : block;
+}
+
+.completedHide
+{
+  display : none;
+}
+
+.flex-container {
+  display: grid;
+    grid-template-columns: 400px 400px;
+    grid-gap: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.flex-child1 {
+  flex: 1;
+  border-style: solid;
+  border-width: 3px; 
+  border-radius: 50px;
+  width: auto;
+  height: auto;
+  padding: 10px;
+}  
+
+.flex-child2 {
+  margin-right: 20px;
+  border-width: 3px;
+  border-style: solid;
+  width: 400px;
+  padding: 10px;
+} 
